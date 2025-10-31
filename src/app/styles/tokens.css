@@ -1,0 +1,52 @@
+/* Design Tokens based on Design Spec v1.0 */
+:root {
+  /* Neutral */
+  --gray-0:   #FFFFFF;
+  --gray-50:  #F7F8FA;
+  --gray-100: #EDF0F5;
+  --gray-200: #DCE2EA;
+  --gray-300: #C8D0DB;
+  --gray-600: #6B7280;
+  --gray-800: #1F2937;
+
+  /* Brand & Accents */
+  --brand-50:  #EEF2FF;
+  --brand-300: #A5B4FC;
+  --brand-500: #6366F1; /* 主色 */
+  --brand-600: #5457E6;
+  --accent-1:  #22D3EE;
+  --accent-2:  #E879F9;
+
+  /* Feedback */
+  --success: #10B981;
+  --warning: #F59E0B;
+  --danger:  #EF4444;
+
+  /* Typography */
+  --text-primary:   rgba(17, 24, 39, 0.92);
+  --text-secondary: rgba(17, 24, 39, 0.62);
+  --text-tertiary:  rgba(17, 24, 39, 0.42);
+  --text-inverse:   rgba(255,255,255,0.96);
+
+  /* Glassmorphism */
+  --glass-bg:           rgba(255,255,255,0.35);
+  --glass-blur:         16px;
+  --glass-border:       1px solid rgba(255,255,255,0.45);
+  --glass-inner-stroke: 1px solid rgba(255,255,255,0.18);
+  --glass-shadow:       0 10px 30px rgba(31,41,55,0.10), 0 2px 6px rgba(31,41,55,0.06);
+
+  --glass-fg-bg:        rgba(255,255,255,0.42);
+  --glass-fg-blur:      24px;
+  --glass-fg-shadow:    0 24px 60px rgba(31,41,55,0.18);
+
+  --neon-outline:       0 0 0 1px rgba(99,102,241,0.35), 0 0 12px rgba(99,102,241,0.25);
+
+  /* Radius & Shadow */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 2px 8px rgba(31,41,55,0.06);
+  --shadow-md: 0 10px 30px rgba(31,41,55,0.12);
+  --shadow-lg: 0 24px 60px rgba(31,41,55,0.18);
+}
