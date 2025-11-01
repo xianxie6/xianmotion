@@ -8,6 +8,13 @@ interface SwayTextProps {
   durationSec: number; // 时长
   phaseStep: number;   // 相位步进
   direction: "ltr" | "rtl" | "alternate";
+  gustEnabled?: boolean;
+  gustStrength?: number;
+  gustPeriodSec?: number;
+  jitterEnabled?: boolean;
+  jitterPx?: number;
+  jitterSpeedSec?: number;
+  className?: string;
 }
 
 // 将文本拆分为逐字符的随风摆动效果
